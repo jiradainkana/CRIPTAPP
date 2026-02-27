@@ -116,6 +116,7 @@ button:hover {
     }
 
     .result {
-        font-size: 12px;
+        font-size: 5px;
+        width: 370px;
     }
 }
