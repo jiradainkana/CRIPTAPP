@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background:white;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.chat-container{
+    width:600px;
+}
+
+.card {
+    width: 500px;
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 0 20px rgba(255, 251, 251, 0.1);
+}
+
+
+.title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #f9fafb;
+}
+
+
+textarea{
+    flex:1;
+    background:transparent;
+    border:none;
+    outline:none;
+    color:black;
+    font-size:16px;
+    resize:none;
+    max-height:150px;
+    min-height:24px;
+    line-height:1.4;
+}
+
+textarea:focus {
+    border-color: #2563eb;
+}
+.input-box{
+    display:flex;
+    align-items:flex-end;
+    background:white;
+    border:1px solid #1f2937;
+    border-radius:16px;
+    padding:10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button{
+    background:#2563eb;
+    border:none;
+    color:white;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    cursor:pointer;
+    margin-left:8px;
+    font-size:18px;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+/* résultat */
+.result {
+    margin-top: 15px;
+    background: white;
+    padding: 12px;
+    border-radius: 8px;
+    min-height: 60px;
+    font-size: 13px;
+    color: #22c55e;
+    word-wrap: break-word;
+}
+
+.label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: #9ca3af;
+}
