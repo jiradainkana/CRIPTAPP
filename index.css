@@ -23,15 +23,11 @@ body {
     padding: 25px;
     box-shadow: 0 0 20px rgba(255, 251, 251, 0.1);
 }
-
-
-.title {
+h1{
+    color: black;
     font-size: 20px;
-    margin-bottom: 15px;
-    color: #f9fafb;
+    text-align: center;
 }
-
-
 textarea{
     flex:1;
     background:transparent;
